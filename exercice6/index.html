@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="script.js"></script>
+    <title>Exercice 6</title>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <button ng-click="cacherP2()">Cacher paragraphe 2</button>
+    <button ng-click="cacherP1()">Cacher paragraphe 1</button>
+    <p ng-hide="hide1">Paragraphe 1, sit amet consectetur adipisicing elit. Expedita, cupiditate itaque reiciendis magni ullam iure provident blanditiis ea possimus saepe adipisci obcaecati minima fuga soluta recusandae minus quam facilis similique?</p>
+    <p ng-hide="hide2">Paragraphe 2 dolor sit amet consectetur, adipisicing elit. Ullam enim temporibus molestias porro obcaecati ipsam, placeat minima provident inventore voluptate magni. Quidem consequatur magni quis maiores explicabo aperiam atque beatae!</p>
+</body>
+
+</html>

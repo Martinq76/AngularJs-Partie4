@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="script.js"></script>
+    <title>Exercice 4</title>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <ul>
+        <li ng-repeat="show in voitures | filter:'!verte'">
+            {{show.marque + ' ' + show.couleur}}
+        </li>
+    </ul>
+
+</body>
+
+</html>
